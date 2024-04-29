@@ -409,6 +409,7 @@ margin-top: 150px;
 
 display:flex;
 justify-content:space-around;
+margin-bottom: 150px;
 `
 export const Firstcontainerinside=styled.div`
 width:730px;
@@ -418,7 +419,7 @@ z-index: 1;
 
 `
 export const Miloszimage=styled.img`
-width: 650px;
+width: 718px;
 height: 800px;
 
 :hover{
@@ -427,7 +428,7 @@ height: 800px;
 }
 `
 export const Firstparagraph=styled.div`
-width:130%;
+width:150%;
 height:110px;
 border-bottom: 1px solid black;
 font-size: 100px;
@@ -446,9 +447,10 @@ height:110px;
 border-bottom: 1px solid black;
 font-size: 100px;
 font-weight:500;
-margin-left: 67px;
+
 span{
     color:white;
+    border-bottom:none;
 }
 `
 export const Fourparagraph=styled.div`
@@ -458,5 +460,14 @@ height:184px ;
 font-size: 16px;
 font-weight: 500;
 margin-top: 100px;
+`
+export const Firstacapit=styled.div`
+margin-left: auto;
+margin-right: 0;
+width: 1400px;
+height:110px;
+border-bottom: 1px solid black;
+font-size:100px;
+font-weight:500;
 
 `

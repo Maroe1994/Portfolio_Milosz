@@ -1,5 +1,5 @@
 import React from "react";
-import { Global,Contact,Textcontainerfirst,Iconphoto,Textcontainersecond,Textcontainerthird,Textcontainerfour,Firstcontainercontent,Firstcontainerinside,Miloszimage,Firstparagraph,Secondparagraph,Thirdparagraph,Fourparagraph } from "../stylecomponents/landingpage.style";
+import { Global,Contact,Textcontainerfirst,Iconphoto,Textcontainersecond,Textcontainerthird,Textcontainerfour,Firstcontainercontent,Firstcontainerinside,Miloszimage,Firstparagraph,Secondparagraph,Thirdparagraph,Fourparagraph,Firstacapit } from "../stylecomponents/landingpage.style";
 export function Landingpage () {
     return (
         <>
@@ -32,6 +32,8 @@ export function Landingpage () {
          </Firstcontainerinside>
          <Miloszimage src="milosz.jpg" alt="Milosz"/>
         </Firstcontainercontent>
+        <Firstacapit>Dążę do piękna  &</Firstacapit>
+        <Firstacapit>jedności w dizajnie</Firstacapit>
         </>
     )
 }
