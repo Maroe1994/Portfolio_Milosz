@@ -54,12 +54,12 @@ export const Images = styled.img`
 export const NextButton = styled.button`
 margin-top: 20px;
 cursor: pointer;
-z-index: 100;
+
 `;
 
 export const PreviousButton = styled.button`
 margin-top: 40px;
 cursor: pointer;
 margin-right: 20px;
-z-index: 100;
+
 `;

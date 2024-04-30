@@ -1,5 +1,5 @@
 import React from "react";
-import { Global,Contact,Textcontainerfirst,Iconphoto,Textcontainersecond,Textcontainerthird,Textcontainerfour,Firstcontainercontent,Firstcontainerinside,Miloszimage,Firstparagraph,Secondparagraph,Thirdparagraph,Fourparagraph,Firstacapit, Containerphototext,Containertxt } from "../stylecomponents/landingpage.style";
+import { Global,Contact,Textcontainerfirst,Iconphoto,Textcontainersecond,Textcontainerthird,Textcontainerfour,Firstcontainercontent,Firstcontainerinside,Miloszimage,Firstparagraph,Secondparagraph,Thirdparagraph,Fourparagraph,Firstacapit, Containerphototext,Containertxt,Containeryeyes,Lastbigcontainer,Fotter,Firstelementfotter,Secondelementfotter,Thirdelementfotter } from "../stylecomponents/landingpage.style";
 import { Slider } from "./Slider";
 
 export function Landingpage () {
@@ -60,8 +60,93 @@ export function Landingpage () {
             </p>
             <p>2021</p>
         </Containertxt>
-       <Slider alt="First" arr={imagesArray} />
+       <Slider alt="First" arr={imagesArray} >
+        <Containeryeyes>
+            
+        </Containeryeyes>
+       </Slider>
        </Containerphototext>
+       <Containerphototext>
+
+       <Slider alt="First" arr={imagesArray} >
+        <Containeryeyes>
+            
+        </Containeryeyes>
+       </Slider>
+      <Containertxt>
+      <p>
+        Identyfikacja wizualna systemy
+        Miłosz Chełmowski/Julia Kapela
+       </p>
+       <p>
+        Projekt Własny
+       </p>
+       <p>
+        2022
+       </p>
+      </Containertxt>
+       </Containerphototext>
+       <Containerphototext>
+        <Containertxt>
+            <p>
+                Projekty składu tekstu i okładek
+                książek
+            </p>
+            <p>2021-22023</p>
+        </Containertxt>
+       <Slider alt="First" arr={imagesArray} >
+        <Containeryeyes>
+            
+        </Containeryeyes>
+       </Slider>
+       </Containerphototext>
+       <Containerphototext>
+
+       <Slider alt="First" arr={imagesArray} >
+        <Containeryeyes>
+            
+        </Containeryeyes>
+       </Slider>
+      <Containertxt>
+      <p>
+        Znaki graficzne
+        Bliźnięta
+        Knight
+        Smok chiński
+       </p>
+       <p>
+        2021-2022
+       </p>
+      </Containertxt>
+       </Containerphototext>
+       <Containerphototext>
+        <Containertxt>
+            <p>
+                Linoryty
+            </p>
+            
+            <p>2021-2023</p>
+        </Containertxt>
+       <Slider alt="First" arr={imagesArray} >
+        <Containeryeyes>
+            
+        </Containeryeyes>
+       </Slider>
+       </Containerphototext>
+       <Lastbigcontainer>
+
+       </Lastbigcontainer>
+       <Fotter>
+       <Firstelementfotter>
+        Miłosz Chełmowski
+       </Firstelementfotter>
+       <Secondelementfotter>
+        Created to create
+       </Secondelementfotter>
+       <Thirdelementfotter>
+        2023
+       </Thirdelementfotter>
+       </Fotter>
         </>
         
     )

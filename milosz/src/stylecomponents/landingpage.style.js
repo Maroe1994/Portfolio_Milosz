@@ -469,14 +469,14 @@ font-weight:500;
 `
 
 export const Containerphototext=styled.div`
-width:1400px;
+width:1300px;
 height:auto;
 margin-left:auto;
 margin-right: auto;
 ;
 margin-top: 200px;
 display:flex;
-justify-content: space-between;
+justify-content: space-around;
 
 `
 export const Containertxt=styled.div`
@@ -486,4 +486,61 @@ height:285px;
 font-size: 16px;
 font-weight:600;
 margin-top: 0;
+p{
+    
+    margin-top: 0;
+}
+`
+export const Containeryeyes=styled.div`
+width:200px;
+height:50px;
+
+border:10px solid red;
+
+
+`
+
+export const Lastbigcontainer=styled.div`
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+height:500px;
+border:3px solid red;
+`
+export const Fotter=styled.div`
+
+width: 1200px;
+height:100px;
+display: flex;
+justify-content: space-between;
+
+margin-top: 100px;
+margin-left: auto;
+margin-right:auto ;
+`
+export const Firstelementfotter=styled.div`
+width: 370px;
+height: 22px;
+font-size: 16px;
+font-weight: 500;
+
+`
+export const Secondelementfotter=styled.div`
+width:370px;
+height:82px;
+font-size:16px;
+font-weight:500;
+text-align: center;
+
+text-transform: uppercase;
+`
+export const Thirdelementfotter=styled.div`
+width: 370px;
+height: 82px;
+font-size: 16px;
+font-weight: 500;
+display: flex;
+justify-content: flex-end;
+
+
 `
