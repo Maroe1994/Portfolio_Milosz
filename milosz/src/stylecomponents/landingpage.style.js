@@ -17,13 +17,10 @@ export const Global = createGlobalStyle`
   color:black;
   font-size: 20px;
   top:30px;
-  
+  z-index:2;
   display: flex;
   align-items: flex-end;
   border-bottom:1px solid black;
-  
-  
- 
   `
   export const Textcontainerfirst=styled.div`
   width: 1200px;
@@ -469,5 +466,24 @@ height:110px;
 border-bottom: 1px solid black;
 font-size:100px;
 font-weight:500;
+`
 
+export const Containerphototext=styled.div`
+width:1400px;
+height:auto;
+margin-left:auto;
+margin-right: auto;
+border:3px solid black;
+margin-top: 200px;
+display:flex;
+justify-content: space-between;
+
+`
+export const Containertxt=styled.div`
+width:270px;
+height:285px;
+border:2px solid red;
+font-size: 16px;
+font-weight:600;
+margin-top: 0;
 `
