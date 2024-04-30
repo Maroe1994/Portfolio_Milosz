@@ -29,8 +29,8 @@ export const ImageBox = styled.div`
 `;
 export const SlideWrapper = styled.div`
   position: relative;
-  width: 55vw;
-  height: 100vh;
+  width: 870px;
+  height: 615px;
   margin-left: auto;
   margin-right: 100px;
   
