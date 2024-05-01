@@ -505,7 +505,10 @@ width: 1200px;
 margin-left: auto;
 margin-right: auto;
 height:500px;
-border:3px solid red;
+
+display: flex;
+justify-content: space-between;
+margin-top: 300px;
 `
 export const Fotter=styled.div`
 
@@ -541,6 +544,69 @@ font-size: 16px;
 font-weight: 500;
 display: flex;
 justify-content: flex-end;
+`
+export const Leftcontainer=styled.div`
+width: 750px;
+height:500px;
 
+`
+export const Miloszsmile=styled.img`
+height: 500px;
+width:450px;
+`
+export const Textwithunderline=styled.div`
+width: 750px;
+height:100px;
+font-size:100px;
+font-weight: 600;
+border-bottom:1px solid black;
+display: flex;
+align-items: center;
+`
+export const Containerwithcontact=styled.div`
+width:700px;
+height:80px;
+
+margin-top: 100px;
+display: flex;
+justify-content: space-between;
+`
+export const Writeonemail=styled.div`
+width:370px;
+height:80px;
+
+margin-top: 0;
+font-size:20px ;
+font-weight: 600;
+p{
+    margin-top: 0;
+   
+    margin-bottom: 0;
+}
+`
+export const Localization=styled.div`
+width: 230px;
+height: 80px;
+
+margin-top: 0;
+font-size:20px ;
+font-weight: 600;
+p{
+    margin-top: 0;
+    
+    margin-bottom: 0;
+}
+`
+export const Containersocialmedia=styled.div`
+width: 100px;
+height:30px;
+
+margin-top: 83px;
+display: flex;
+justify-content: space-between;
+`
+export const InstagramandBe=styled.img`
+width: 30px;
+height:30px;
 
 `

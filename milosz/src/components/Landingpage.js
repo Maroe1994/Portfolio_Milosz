@@ -1,5 +1,5 @@
 import React from "react";
-import { Global,Contact,Textcontainerfirst,Iconphoto,Textcontainersecond,Textcontainerthird,Textcontainerfour,Firstcontainercontent,Firstcontainerinside,Miloszimage,Firstparagraph,Secondparagraph,Thirdparagraph,Fourparagraph,Firstacapit, Containerphototext,Containertxt,Containeryeyes,Lastbigcontainer,Fotter,Firstelementfotter,Secondelementfotter,Thirdelementfotter } from "../stylecomponents/landingpage.style";
+import { Global,Contact,Textcontainerfirst,Iconphoto,Textcontainersecond,Textcontainerthird,Textcontainerfour,Firstcontainercontent,Firstcontainerinside,Miloszimage,Firstparagraph,Secondparagraph,Thirdparagraph,Fourparagraph,Firstacapit, Containerphototext,Containertxt,Containeryeyes,Lastbigcontainer,Fotter,Firstelementfotter,Secondelementfotter,Thirdelementfotter,Leftcontainer,Miloszsmile,Textwithunderline, Containerwithcontact,Writeonemail,Localization,Containersocialmedia,InstagramandBe } from "../stylecomponents/landingpage.style";
 import { Slider } from "./Slider";
 
 export function Landingpage () {
@@ -134,7 +134,37 @@ export function Landingpage () {
        </Slider>
        </Containerphototext>
        <Lastbigcontainer>
-
+       <Leftcontainer>
+       <Textwithunderline>
+        Zróbmy
+       </Textwithunderline>
+       <Textwithunderline>
+        to razem!
+       </Textwithunderline>
+       <Containerwithcontact>
+        <Writeonemail>
+            <p>
+                Napisz na:
+            </p>
+            <p>
+                milosz.chelmowski@gmail.com
+            </p>
+        </Writeonemail>
+        <Localization>
+            <p>
+                Gdańsk
+            </p>
+            <p>
+                Polska
+            </p>
+        </Localization>
+       </Containerwithcontact>
+       <Containersocialmedia>
+<InstagramandBe src="instagram.png" alt="instagram"/>
+<InstagramandBe src="Be.png" alt="Be"/>
+       </Containersocialmedia>
+       </Leftcontainer>
+       <Miloszsmile src="milosz2.jpg" alt="miloszsmaile"/>
        </Lastbigcontainer>
        <Fotter>
        <Firstelementfotter>
