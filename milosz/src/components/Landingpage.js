@@ -32,7 +32,7 @@ export function Landingpage () {
          </Thirdparagraph>
          <Fourparagraph>
             Zajmuję sie projektowaniem grafiki użytkowej, m.in
-            indentyfikacji wizualnej, fir, wydarzeń, social media, znaków
+            indentyfikacji wizualnej, firm, wydarzeń, social media, znaków
             graficznych, okładek płyt, plakatów oraz składem książek.
             Zajmuję się również tworzeniem abstrakcyjnych linorytów,
             oraz studiuję Grafikę na  Akademi sztuk pięknych 
@@ -128,9 +128,7 @@ export function Landingpage () {
             <p>2021-2023</p>
         </Containertxt>
        <Slider alt="First" arr={imagesArray} >
-        <Containeryeyes>
-            
-        </Containeryeyes>
+        
        </Slider>
        </Containerphototext>
        <Lastbigcontainer>

@@ -31,8 +31,7 @@ export const SlideWrapper = styled.div`
   position: relative;
   width: 870px;
   height: 615px;
-  margin-left: auto;
-  margin-right: 100px;
+ 
   
 
   @media screen and (max-width: 768px) {
