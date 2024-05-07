@@ -1,6 +1,7 @@
 import React from "react";
 import { Global,Contact,Textcontainerfirst,Iconphoto,Textcontainersecond,Textcontainerthird,Textcontainerfour,Firstcontainercontent,Firstcontainerinside,Miloszimage,Firstparagraph,Secondparagraph,Thirdparagraph,Fourparagraph,Firstacapit, Containerphototext,Containertxt,Containeryeyes,Lastbigcontainer,Fotter,Firstelementfotter,Secondelementfotter,Thirdelementfotter,Leftcontainer,Miloszsmile,Textwithunderline, Containerwithcontact,Writeonemail,Localization,Containersocialmedia,InstagramandBe } from "../stylecomponents/landingpage.style";
 import { Slider } from "./Slider";
+import { Link } from 'react-scroll';
 
 export function Landingpage () {
 
@@ -10,10 +11,12 @@ export function Landingpage () {
 ];
 
 
+
+
     return (
         <>
         <Global/> 
-        <Contact>kontakt</Contact>
+        <Contact><Link to="Fotter" smooth={true} duration={500}>kontakt</Link></Contact>
         <Textcontainerfirst>Cześć!
          <Iconphoto src="iconphoto.png" alt="Iconphoto" />   
         </Textcontainerfirst>
@@ -69,9 +72,7 @@ export function Landingpage () {
        <Containerphototext>
 
        <Slider alt="First" arr={imagesArray} >
-        <Containeryeyes>
-            
-        </Containeryeyes>
+        
        </Slider>
       <Containertxt>
       <p>
@@ -96,7 +97,7 @@ export function Landingpage () {
         </Containertxt>
        <Slider alt="First" arr={imagesArray} >
         <Containeryeyes>
-            
+
         </Containeryeyes>
        </Slider>
        </Containerphototext>
@@ -131,6 +132,7 @@ export function Landingpage () {
         
        </Slider>
        </Containerphototext>
+       
        <Lastbigcontainer>
        <Leftcontainer>
        <Textwithunderline>
@@ -164,7 +166,7 @@ export function Landingpage () {
        </Leftcontainer>
        <Miloszsmile src="milosz2.jpg" alt="miloszsmaile"/>
        </Lastbigcontainer>
-       <Fotter>
+       <Fotter name="Fotter" >
        <Firstelementfotter>
         Miłosz Chełmowski
        </Firstelementfotter>
@@ -175,6 +177,7 @@ export function Landingpage () {
         2023
        </Thirdelementfotter>
        </Fotter>
+       
         </>
         
     )

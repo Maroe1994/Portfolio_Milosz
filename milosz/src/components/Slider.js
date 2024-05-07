@@ -1,6 +1,6 @@
 import { useState,useEffect } from "react";
 import { ImageBox,Images,SlideWrapper,NextButton,PreviousButton } from "../stylecomponents/Slider.style";
-
+import { Containeryeyes,Eyeimg } from "../stylecomponents/landingpage.style";
 
 
 export function Slider ({arr,src,})  {
@@ -33,7 +33,14 @@ export function Slider ({arr,src,})  {
               src={arr[index].src}
               alt={arr[index].src}
             />
-          )}
+          )} 
+          <Containeryeyes>
+            <Eyeimg/>
+            <Eyeimg/>
+            <Eyeimg/>
+            <Eyeimg/>
+            <Eyeimg/>
+          </Containeryeyes>
            <NextButton className="btnnext" onClick={nextImage}>
             Previous
           </NextButton>

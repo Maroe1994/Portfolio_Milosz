@@ -21,6 +21,13 @@ export const Global = createGlobalStyle`
   display: flex;
   align-items: flex-end;
   border-bottom:1px solid black;
+  :hover{
+    cursor: pointer;
+    transition: ease-in-out 200ms;
+    font-style: italic;
+    font-size: 17px;
+    font-weight:400;
+  }
   
   `
   export const Textcontainerfirst=styled.div`
@@ -337,12 +344,28 @@ p{
 }
 `
 export const Containeryeyes=styled.div`
-width:200px;
+width:150px;
 height:50px;
+z-index:5;
 
-border:10px solid red;
+position: absolute;
+  bottom: 0;
+  left:2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
+`
+export const Eyeimg=styled.div`
+width: 15px;
+height:15px;
+background-color: gray;
+border-radius:50%;
 
+&:hover{
+    background-color: lightgray;
+    cursor:pointer;
+}
 `
 
 export const Lastbigcontainer=styled.div`
@@ -455,3 +478,4 @@ width: 30px;
 height:30px;
 
 `
+
