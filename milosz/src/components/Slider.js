@@ -34,13 +34,11 @@ export function Slider ({arr,src,})  {
               alt={arr[index].src}
             />
           )} 
-          <Containeryeyes>
-            <Eyeimg/>
-            <Eyeimg/>
-            <Eyeimg/>
-            <Eyeimg/>
-            <Eyeimg/>
-          </Containeryeyes>
+         <Containeryeyes>
+          {arr.map((_index, i) => (
+            <Eyeimg key={i} onClick={() => nextImage(i)} />
+          ))}
+        </Containeryeyes>
            <NextButton className="btnnext" onClick={nextImage}>
             Previous
           </NextButton>

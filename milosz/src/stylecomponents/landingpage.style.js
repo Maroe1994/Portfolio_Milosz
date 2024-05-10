@@ -352,20 +352,22 @@ position: absolute;
   bottom: 0;
   left:2%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
-
+  
 `
 export const Eyeimg=styled.div`
 width: 15px;
 height:15px;
 background-color: gray;
 border-radius:50%;
+margin-left:5px;
 
 &:hover{
     background-color: lightgray;
     cursor:pointer;
 }
+
 `
 
 export const Lastbigcontainer=styled.div`
