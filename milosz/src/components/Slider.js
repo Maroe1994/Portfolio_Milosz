@@ -8,7 +8,7 @@ export function Slider ({arr,src,})  {
     useEffect(() => {
         const timer = setInterval(() => {
           setIndex((prevImage) => (prevImage + 1) % arr.length);
-        }, 5000);
+        }, 3000);
     
         return () => {
           clearInterval(timer);

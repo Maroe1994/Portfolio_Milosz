@@ -28,6 +28,10 @@ export const Global = createGlobalStyle`
     font-size: 17px;
     font-weight:400;
   }
+  @media  screen and (max-width: 768px) {
+
+
+  }
   
   `
   export const Textcontainerfirst=styled.div`
@@ -82,6 +86,13 @@ export const Global = createGlobalStyle`
     opacity: 1;
   }
 }
+@media  screen and (max-width: 768px) {
+width: 360px;
+height: 49px;
+font-size: 55px;
+
+    
+}
  `
  export const Iconphoto=styled.img`
  width: 100px;
@@ -89,6 +100,12 @@ export const Global = createGlobalStyle`
  
  margin-right: 140px;
  margin-bottom: 20px;
+ @media  screen and (max-width: 768px) {
+width: 54px;
+height: 54px;
+margin-bottom: 0;
+margin-left: 80px;
+ }
  `
  export const Textcontainersecond=styled.div`
  width:850px;
@@ -136,6 +153,13 @@ export const Global = createGlobalStyle`
             transform: translateX(0);
     opacity: 1;
   }
+}
+@media  screen and (max-width: 768px) {
+width: 275px;
+height: 63px;
+font-size: 55px;
+font-weight: 600;
+    
 }
 
  `
@@ -190,6 +214,13 @@ export const Global = createGlobalStyle`
     opacity: 1;
   }
 }
+@media  screen and (max-width: 768px) {
+width: 360px;
+height: 49px;
+font-size: 55px;
+margin-top: 20px;
+    
+}
  `
 
  export const Textcontainerfour=styled.div`
@@ -242,6 +273,13 @@ export const Global = createGlobalStyle`
     opacity: 1;
   }
 }
+@media  screen and (max-width: 768px) {
+width: 275px;
+height: 63px;
+font-size: 55px;
+font-weight: 300;
+    
+}
 
 `
 
@@ -256,6 +294,10 @@ margin-top: 150px;
 display:flex;
 justify-content:space-around;
 margin-bottom: 150px;
+@media  screen and (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+}
 `
 export const Firstcontainerinside=styled.div`
 width:730px;
@@ -268,7 +310,7 @@ export const Miloszimage=styled.img`
 width: 618px;
 height: 800px;
 
-:hover{
+&:hover{
 
     scale:1.5;
 }
@@ -362,9 +404,10 @@ height:15px;
 background-color: gray;
 border-radius:50%;
 margin-left:5px;
+border:1px solid white;
 
 &:hover{
-    background-color: lightgray;
+    background-color: white;
     cursor:pointer;
 }
 
@@ -478,6 +521,8 @@ justify-content: space-between;
 export const InstagramandBe=styled.img`
 width: 30px;
 height:30px;
-
+&:hover{
+    scale: 1.4;
+}
 `
 

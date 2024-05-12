@@ -10,7 +10,11 @@ export function Landingpage () {
   {src:"phototwo.png",id:3}
 ];
 
-
+const imagesArrays =  [{ src: "milosz.jpg",id:1},
+{ src: "photoone.jpg",id:2 },
+{src:"phototwo.png",id:3},
+{src:"logo512.png", id:4}
+];
 
 
     return (
@@ -71,7 +75,7 @@ export function Landingpage () {
        </Containerphototext>
        <Containerphototext>
 
-       <Slider alt="First" arr={imagesArray} >
+       <Slider alt="First" arr={imagesArrays} >
         
        </Slider>
       <Containertxt>
@@ -160,8 +164,8 @@ export function Landingpage () {
         </Localization>
        </Containerwithcontact>
        <Containersocialmedia>
-<InstagramandBe src="instagram.png" alt="instagram"/>
-<InstagramandBe src="Be.png" alt="Be"/>
+< a href="https://www.instagram.com/milosz_chelmowski/" target="blank" > <InstagramandBe src="instagram.png" alt="instagram"/></a>
+<a href="https://www.behance.net/miloszchelmowski" target="blank" > <InstagramandBe src="Be.png" alt="Be"/> </a>
        </Containersocialmedia>
        </Leftcontainer>
        <Miloszsmile src="milosz2.jpg" alt="miloszsmaile"/>
