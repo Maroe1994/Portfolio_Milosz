@@ -540,7 +540,7 @@ font-weight: 500;
 @media  screen and (max-width: 768px) {
   font-size: 16px;
   
-  width: 150px;
+  width: 160px;
 }
 `
 export const Secondelementfotter=styled.div`
