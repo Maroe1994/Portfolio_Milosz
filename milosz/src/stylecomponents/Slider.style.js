@@ -20,34 +20,38 @@ export const ImageBox = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    height: 70%; // Przykładowa zmiana wysokości dla mniejszych ekranów
+    width: 100vw;
+    height: 255px; // Przykładowa zmiana wysokości dla mniejszych ekranów
     border-radius: 10px; // Przykładowa zmiana promienia dla mniejszych ekranów
     justify-content: center;
     align-items: center;
-    height: 400px;
+    
   }
 `;
 export const SlideWrapper = styled.div`
   position: relative;
   width: 870px;
   height: 615px;
+  @media screen and (max-width: 768px) {
+    width: 100vw;
+  overflow-x:hidden; 
+  height: 255px;
+  
+  }
  
   
 
-  @media screen and (max-width: 768px) {
-    width: 90vw; // Przykładowa zmiana szerokości dla mniejszych ekranów
-    
-    height: 400px;
-    margin-top: 10px;
-    
-    
-    
-  }
+  
 `;
 export const Images = styled.img`
   width: 70vw;
   height: 100vh;
-  border-radius: 20px;
+  border-radius: 20px solid white;
+  @media  screen and (max-width: 768px) {
+    width: 100vw;
+    height:255px;
+    overflow-x: hidden;
+  }
  `
 
 export const NextButton = styled.button`

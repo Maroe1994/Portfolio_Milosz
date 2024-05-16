@@ -4,7 +4,10 @@ export const Global = createGlobalStyle`
   body {
     margin: 0;
     background-color: #FFFFFF;
-  }`
+  }@media  screen and (max-width: 768px) {
+    overflow-x: hidden;
+  }
+  `
 
   export const Contact=styled.div`
   width: 225px;
@@ -29,7 +32,7 @@ export const Global = createGlobalStyle`
     font-weight:400;
   }
   @media  screen and (max-width: 768px) {
-
+width: 45%;
 
   }
   
@@ -87,7 +90,7 @@ export const Global = createGlobalStyle`
   }
 }
 @media  screen and (max-width: 768px) {
-width: 360px;
+width: 85%;
 height: 49px;
 font-size: 55px;
 
@@ -155,7 +158,7 @@ margin-left: 80px;
   }
 }
 @media  screen and (max-width: 768px) {
-width: 275px;
+width: 70%;
 height: 63px;
 font-size: 55px;
 font-weight: 600;
@@ -215,7 +218,7 @@ font-weight: 600;
   }
 }
 @media  screen and (max-width: 768px) {
-width: 360px;
+width: 85%;
 height: 49px;
 font-size: 55px;
 margin-top: 20px;
@@ -274,7 +277,7 @@ margin-top: 20px;
   }
 }
 @media  screen and (max-width: 768px) {
-width: 275px;
+width: 75%;
 height: 63px;
 font-size: 55px;
 font-weight: 300;
@@ -297,6 +300,10 @@ margin-bottom: 150px;
 @media  screen and (max-width: 768px) {
     display: flex;
     flex-direction: column;
+    
+    width: 100%;
+    height:auto;
+    
 }
 `
 export const Firstcontainerinside=styled.div`
@@ -304,6 +311,11 @@ width:730px;
 height: 800px;
 
 z-index: 1;
+@media  screen and (max-width: 768px) {
+  
+  width: 100vw;
+  height:450px;
+}
 
 `
 export const Miloszimage=styled.img`
@@ -312,7 +324,13 @@ height: 800px;
 
 &:hover{
 
-    scale:1.5;
+    opacity: 0.7;
+}
+@media  screen and (max-width: 768px) {
+  width: 95vw;
+  height:416px;
+  margin-left: auto;
+  margin-right: auto;
 }
 `
 export const Firstparagraph=styled.div`
@@ -324,6 +342,15 @@ font-weight:500;
 
 display: flex;
 justify-content: flex-start;
+@media  screen and (max-width: 768px) {
+  width: 95%;
+  height:38px;
+  font-size: 33px;
+  margin-left: auto;
+  margin-right: 0;
+  
+}
+
 `
 export const Secondparagraph=styled.div`
 width:100%;
@@ -331,6 +358,14 @@ height:110px;
 border-bottom: 1px solid black;
 font-size: 100px;
 font-weight:500;
+@media  screen and (max-width: 768px) {
+  width: 95%;
+  height:38px;
+  font-size: 33px;
+  margin-left: auto;
+  margin-right: 0;
+  
+}
 `
 export const Thirdparagraph=styled.div`
 width:130%;
@@ -343,6 +378,16 @@ span{
     color:white;
     border-bottom:none;
 }
+@media  screen and (max-width: 768px) {
+  width: 95%;
+  height:38px;
+  font-size: 33px;
+  margin-left: auto;
+  margin-right: 0;
+  span{
+    color:black;
+  }
+}
 `
 export const Fourparagraph=styled.div`
 
@@ -351,6 +396,15 @@ height:184px ;
 font-size: 16px;
 font-weight: 500;
 margin-top: 100px;
+@media  screen and (max-width: 768px) {
+  width: 95%;
+  height:176px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto; 
+  
+  
+}
 `
 export const Firstacapit=styled.div`
 margin-left: auto;
@@ -360,6 +414,15 @@ height:110px;
 border-bottom: 1px solid black;
 font-size:100px;
 font-weight:500;
+@media  screen and (max-width: 768px) {
+width: 80%;
+margin-left: auto;
+margin-right: 0;
+height: auto;
+
+font-size: 33px;
+overflow-x: hidden;
+}
 `
 
 export const Containerphototext=styled.div`
@@ -371,6 +434,19 @@ margin-right: auto;
 margin-top: 200px;
 display:flex;
 justify-content: space-between;
+@media  screen and (max-width: 768px) {
+  width: 100%;
+  height:auto;
+  display:flex;
+  flex-direction: column-reverse;
+  p{
+    position: relative;
+    bottom: 0;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 `
 export const Containertxt=styled.div`
@@ -383,6 +459,12 @@ margin-top: 0;
 p{
     
     margin-top: 0;
+}
+@media  screen and (max-width: 768px) {
+  width: 100%;
+  margin-top: 20px;
+  height: 264px;
+  font-size: 16px;
 }
 `
 export const Containeryeyes=styled.div`
@@ -422,6 +504,12 @@ height:500px;
 display: flex;
 justify-content: space-between;
 margin-top: 300px;
+@media  screen and (max-width: 768px) {
+  
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
 `
 export const Fotter=styled.div`
 
@@ -429,17 +517,31 @@ width: 1200px;
 height:100px;
 display: flex;
 justify-content: space-between;
+@media  screen and (max-width: 768px) {
+  width: 90%;
+  height: 80px;
+  position:relative;
+  top:100%;  
+  
+  margin-left: auto;
+  margin-right: auto;
+}
 
 margin-top: 100px;
 margin-left: auto;
 margin-right:auto ;
+
 `
 export const Firstelementfotter=styled.div`
 width: 370px;
 height: 22px;
 font-size: 16px;
 font-weight: 500;
-
+@media  screen and (max-width: 768px) {
+  font-size: 16px;
+  
+  width: 150px;
+}
 `
 export const Secondelementfotter=styled.div`
 width:370px;
@@ -447,8 +549,20 @@ height:82px;
 font-size:16px;
 font-weight:500;
 text-align: center;
-
 text-transform: uppercase;
+@media  screen and (max-width: 768px) {
+  font-size: 16px;
+ 
+  text-transform: lowercase;
+  width: 200px;
+  
+ width: 150px;
+ height: 30px;
+ position: relative;
+ top:30%;
+ right:44%;
+ text-align: start;
+}
 `
 export const Thirdelementfotter=styled.div`
 width: 370px;
@@ -457,15 +571,36 @@ font-size: 16px;
 font-weight: 500;
 display: flex;
 justify-content: flex-end;
+@media  screen and (max-width: 768px) {
+  position: relative;
+  top:30%;
+  
+  width:40px;
+  height: 50px;
+
+}
 `
 export const Leftcontainer=styled.div`
 width: 750px;
 height:500px;
-
+@media  screen and (max-width: 768px) {
+  
+  width: 100vw;
+}
 `
 export const Miloszsmile=styled.img`
 height: 500px;
 width:450px;
+@media  screen and (max-width: 768px) {
+ 
+  position: relative;
+  bottom: 125%;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
 `
 export const Textwithunderline=styled.div`
 width: 750px;
@@ -475,6 +610,18 @@ font-weight: 600;
 border-bottom:1px solid black;
 display: flex;
 align-items: center;
+@media  screen and (max-width: 768px) {
+  
+ position: relative;
+ bottom: 90%;
+ width: 95vw;
+ height:68px;
+ font-size:66px;
+ font-weight: 500;
+ margin-left: auto;
+ margin-right: 0;
+ 
+}
 `
 export const Containerwithcontact=styled.div`
 width:700px;
@@ -483,11 +630,22 @@ height:80px;
 margin-top: 100px;
 display: flex;
 justify-content: space-between;
+@media  screen and (max-width: 768px) {
+  
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  position: relative;
+  top:5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
 `
 export const Writeonemail=styled.div`
 width:370px;
 height:80px;
-
+font-size: 16px;
 margin-top: 0;
 font-size:20px ;
 font-weight: 600;
@@ -495,6 +653,11 @@ p{
     margin-top: 0;
    
     margin-bottom: 0;
+}
+@media  screen and (max-width: 768px) {
+position: relative;
+top:50%;
+margin-top: 20px;
 }
 `
 export const Localization=styled.div`
@@ -509,6 +672,11 @@ p{
     
     margin-bottom: 0;
 }
+@media  screen and (max-width: 768px) {
+position: relative;
+top:50%;
+margin-top: 20px;
+}
 `
 export const Containersocialmedia=styled.div`
 width: 100px;
@@ -517,6 +685,12 @@ height:30px;
 margin-top: 83px;
 display: flex;
 justify-content: space-between;
+@media  screen and (max-width: 768px) {
+position: relative;
+top:18%;
+
+left:5%;
+}
 `
 export const InstagramandBe=styled.img`
 width: 30px;

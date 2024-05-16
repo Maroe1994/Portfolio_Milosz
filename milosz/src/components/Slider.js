@@ -1,5 +1,5 @@
 import { useState,useEffect } from "react";
-import { ImageBox,Images,SlideWrapper,NextButton,PreviousButton } from "../stylecomponents/Slider.style";
+import { ImageBox,Images,SlideWrapper} from "../stylecomponents/Slider.style";
 import { Containeryeyes,Eyeimg } from "../stylecomponents/landingpage.style";
 
 
@@ -19,10 +19,12 @@ export function Slider ({arr,src,})  {
         setIndex((prevImage) => (prevImage + 1) % arr.length);
       }
     
-      function previousImage() {
-        setIndex((prevImage) => (prevImage - 1 + arr.length) % arr.length);
-      }
-    
+     /* 
+function previousImage() {
+  setIndex((prevImage) => (prevImage - 1 + arr.length) % arr.length);
+}
+*/
+
  return(
 
     <SlideWrapper src={src} >
@@ -39,12 +41,15 @@ export function Slider ({arr,src,})  {
             <Eyeimg key={i} onClick={() => nextImage(i)} />
           ))}
         </Containeryeyes>
-           <NextButton className="btnnext" onClick={nextImage}>
-            Previous
-          </NextButton>
-          <PreviousButton className="btnprevious" onClick={previousImage}>
-            Next
-          </PreviousButton>   
+          {/* 
+<NextButton className="btnnext" onClick={nextImage}>
+  Previous
+</NextButton>
+<PreviousButton className="btnprevious" onClick={previousImage}>
+  Next
+</PreviousButton> 
+*/}
+
 
 </ImageBox>
 </SlideWrapper>
