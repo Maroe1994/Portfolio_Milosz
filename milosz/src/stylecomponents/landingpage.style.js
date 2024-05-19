@@ -33,7 +33,7 @@ export const Global = createGlobalStyle`
   }
   @media  screen and (max-width: 768px) {
 width: 45%;
-
+margin-bottom: 100px;
   }
   
   `
@@ -331,6 +331,8 @@ height: 800px;
   height:416px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  bottom: 300px;
 }
 `
 export const Firstparagraph=styled.div`
@@ -403,6 +405,9 @@ margin-top: 100px;
   margin-left: auto;
   margin-right: auto; 
   
+  position: relative;
+  top:380px;
+  
   
 }
 `
@@ -446,6 +451,9 @@ justify-content: space-between;
     margin-left: auto;
     margin-right: auto;
   }
+}p:nth-child(2n){
+display: flex;
+flex-direction: column-reverse;
 }
 
 `
@@ -560,7 +568,7 @@ text-transform: uppercase;
  height: 30px;
  position: relative;
  top:30%;
- right:44%;
+ right:46%;
  text-align: start;
 }
 `
