@@ -443,17 +443,14 @@ justify-content: space-between;
   width: 100%;
   height:auto;
   display:flex;
-  flex-direction: column-reverse;
-  p{
-    position: relative;
-    bottom: 0;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 50px;
+  flex-direction: column;
+  &:nth-of-type(odd) {
+    @media screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+    }
   }
-}p:nth-child(2n){
-display: flex;
-flex-direction: column-reverse;
+  
 }
 
 `
