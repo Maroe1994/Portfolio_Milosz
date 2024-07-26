@@ -6,7 +6,10 @@ export const Global = createGlobalStyle`
     background-color: #FFFFFF;
   }@media  screen and (max-width: 768px) {
     overflow-x: hidden;
+    width: 100vw;
+
   }
+  
   `
 
   export const Contact=styled.div`
@@ -34,6 +37,16 @@ export const Global = createGlobalStyle`
   @media  screen and (max-width: 768px) {
 width: 45%;
 margin-bottom: 100px;
+
+
+
+  } @media  screen and (min-width: 768px) and (max-width: 1024px) {
+
+    width: 45%;
+    margin-bottom:300px;
+    margin-left:auto;
+  margin-right: 0;
+  font-size: 25px;
   }
   
   `
@@ -95,6 +108,12 @@ height: 49px;
 font-size: 55px;
 
     
+} @media  screen and (min-width: 768px) and (max-width: 1024px) {
+
+  width: 85%;
+height: 49px;
+font-size: 55px;
+
 }
  `
  export const Iconphoto=styled.img`
@@ -164,6 +183,12 @@ font-size: 55px;
 font-weight: 600;
     
 }
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 70%;
+height: 63px;
+font-size: 55px;
+font-weight: 600;
+}
 
  `
  export const Textcontainerthird=styled.div`
@@ -224,6 +249,13 @@ font-size: 55px;
 margin-top: 20px;
     
 }
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+
+  width: 85%;
+height: 49px;
+font-size: 55px;
+margin-top: 20px;
+}
  `
 
  export const Textcontainerfour=styled.div`
@@ -281,9 +313,16 @@ width: 75%;
 height: 63px;
 font-size: 55px;
 font-weight: 300;
-    
+  
 }
 
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 75%;
+height: 63px;
+font-size: 55px;
+font-weight: 300;
+
+}
 `
 
 export const Firstcontainercontent=styled.div`
