@@ -48,7 +48,13 @@ margin-bottom: 100px;
   margin-right: 0;
   font-size: 25px;
   }
-  
+  @media  screen and (min-width: 1024px) {
+    width: 45%;
+    margin-bottom:300px;
+    margin-left:auto;
+  margin-right: 0;
+  font-size: 25px;
+  }
   `
   export const Textcontainerfirst=styled.div`
   width: 1350px;
@@ -115,6 +121,11 @@ height: 49px;
 font-size: 55px;
 
 }
+@media  screen and (min-width: 1024px) {
+  width: 85%;
+height: 49px;
+font-size: 55px;
+}
  `
  export const Iconphoto=styled.img`
  width: 100px;
@@ -127,7 +138,22 @@ width: 54px;
 height: 54px;
 margin-bottom: 0;
 margin-left: 80px;
+
+ }@media  screen and (min-width: 768px) and (max-width: 1024px) {
+
+  width: 74px;
+height: 74px;
+margin-bottom: 0;
+margin-left: 80px;
+
  }
+ @media  screen and (min-width: 1024px) {
+  width: 74px;
+height: 74px;
+margin-bottom: 0;
+margin-left: 80px;
+ }
+
  `
  export const Textcontainersecond=styled.div`
  width:850px;
@@ -189,7 +215,12 @@ height: 63px;
 font-size: 55px;
 font-weight: 600;
 }
-
+@media  screen and (min-width: 1024px) {
+  width: 70%;
+height: 63px;
+font-size: 55px;
+font-weight: 600;
+}
  `
  export const Textcontainerthird=styled.div`
   width: 1350px;
@@ -251,6 +282,12 @@ margin-top: 20px;
 }
 @media  screen and (min-width: 768px) and (max-width: 1024px) {
 
+  width: 85%;
+height: 49px;
+font-size: 55px;
+margin-top: 20px;
+}
+@media  screen and (min-width: 1024px) {
   width: 85%;
 height: 49px;
 font-size: 55px;
@@ -323,6 +360,12 @@ font-size: 55px;
 font-weight: 300;
 
 }
+@media  screen and (min-width: 1024px) {
+  width: 75%;
+height: 63px;
+font-size: 55px;
+font-weight: 300;
+}
 `
 
 export const Firstcontainercontent=styled.div`
@@ -344,6 +387,15 @@ margin-bottom: 150px;
     height:auto;
     
 }
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+
+  display: flex;
+    flex-direction: column;
+    
+    width: 100vw;
+    height:auto;
+
+}
 `
 export const Firstcontainerinside=styled.div`
 width:730px;
@@ -354,6 +406,11 @@ z-index: 1;
   
   width: 100vw;
   height:450px;
+}
+@media  screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 100vw;
+  height:450px;
+
 }
 
 `
@@ -372,7 +429,15 @@ height: 800px;
   margin-right: auto;
   position: relative;
   bottom: 300px;
+}@media  screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 95vw;
+  height:416px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 300px;
 }
+
 `
 export const Firstparagraph=styled.div`
 width:160%;
@@ -390,6 +455,13 @@ justify-content: flex-start;
   margin-left: auto;
   margin-right: 0;
   
+}@media  screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 95%;
+  height:38px;
+  font-size: 33px;
+  margin-left: auto;
+  margin-right: 0;
+
 }
 
 `
@@ -406,6 +478,13 @@ font-weight:500;
   margin-left: auto;
   margin-right: 0;
   
+}@media  screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 95%;
+  height:38px;
+  font-size: 33px;
+  margin-left: auto;
+  margin-right: 0;
+
 }
 `
 export const Thirdparagraph=styled.div`
@@ -420,6 +499,15 @@ span{
     border-bottom:none;
 }
 @media  screen and (max-width: 768px) {
+  width: 95%;
+  height:38px;
+  font-size: 33px;
+  margin-left: auto;
+  margin-right: 0;
+  span{
+    color:black;
+  }
+}@media  screen and (min-width: 768px) and (max-width: 1024px) {
   width: 95%;
   height:38px;
   font-size: 33px;
@@ -448,6 +536,15 @@ margin-top: 100px;
   top:380px;
   
   
+}@media  screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 95%;
+  height:176px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto; 
+  
+  position: relative;
+  top:380px;
 }
 `
 export const Firstacapit=styled.div`
@@ -460,6 +557,14 @@ font-size:100px;
 font-weight:500;
 @media  screen and (max-width: 768px) {
 width: 80%;
+margin-left: auto;
+margin-right: 0;
+height: auto;
+
+font-size: 33px;
+overflow-x: hidden;
+}@media  screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 80%;
 margin-left: auto;
 margin-right: 0;
 height: auto;
@@ -490,6 +595,17 @@ justify-content: space-between;
     }
   }
   
+}@media  screen and (min-width: 768px) and (max-width: 1024px) {
+  width: 100%;
+  height:auto;
+  display:flex;
+  margin-top: 50px;
+  flex-direction: column;
+  &:nth-of-type(odd) {
+    @media screen and  (min-width: 768px) and (max-width: 1024px) {
+      flex-direction: column-reverse;
+    }
+  }
 }
 
 `
@@ -505,6 +621,12 @@ p{
     margin-top: 0;
 }
 @media  screen and (max-width: 768px) {
+  width: 100%;
+  margin-top: 20px;
+  height: 264px;
+  font-size: 16px;
+}
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
   width: 100%;
   margin-top: 20px;
   height: 264px;
@@ -553,6 +675,10 @@ margin-top: 300px;
   display: flex;
   flex-direction: column;
   width: 100vw;
+}@media screen and  (min-width: 768px) and (max-width: 1024px) {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
 }
 `
 export const Fotter=styled.div`
@@ -574,7 +700,15 @@ justify-content: space-between;
 margin-top: 100px;
 margin-left: auto;
 margin-right:auto ;
-
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
+  width: 90%;
+  height: 80px;
+  position:relative;
+  top:100%;  
+  
+  margin-left: auto;
+  margin-right: auto;
+}
 `
 export const Firstelementfotter=styled.div`
 width: 370px;
@@ -582,6 +716,11 @@ height: 22px;
 font-size: 16px;
 font-weight: 500;
 @media  screen and (max-width: 768px) {
+  font-size: 16px;
+  
+  width: 160px;
+}
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
   font-size: 16px;
   
   width: 160px;
@@ -595,6 +734,19 @@ font-weight:500;
 text-align: center;
 text-transform: uppercase;
 @media  screen and (max-width: 768px) {
+  font-size: 16px;
+ 
+  text-transform: lowercase;
+  width: 200px;
+  
+ width: 150px;
+ height: 30px;
+ position: relative;
+ top:30%;
+ right:46%;
+ text-align: start;
+}
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
   font-size: 16px;
  
   text-transform: lowercase;
@@ -623,12 +775,22 @@ justify-content: flex-end;
   height: 50px;
 
 }
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
+  position: relative;
+  top:30%;
+  
+  width:40px;
+  height: 50px;
+}
 `
 export const Leftcontainer=styled.div`
 width: 750px;
 height:500px;
 @media  screen and (max-width: 768px) {
   
+  width: 100vw;
+}
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
   width: 100vw;
 }
 `
@@ -644,6 +806,14 @@ width:450px;
   margin-right: auto;
 
   
+}
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
+  position: relative;
+  bottom: 125%;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 `
 export const Textwithunderline=styled.div`
@@ -666,6 +836,16 @@ align-items: center;
  margin-right: 0;
  
 }
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
+  position: relative;
+ bottom: 90%;
+ width: 95vw;
+ height:68px;
+ font-size:66px;
+ font-weight: 500;
+ margin-left: auto;
+ margin-right: 0;
+}
 `
 export const Containerwithcontact=styled.div`
 width:700px;
@@ -676,6 +856,16 @@ display: flex;
 justify-content: space-between;
 @media  screen and (max-width: 768px) {
   
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  position: relative;
+  top:5%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+}
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
   display: flex;
   flex-direction: column;
   width: 90vw;
@@ -703,6 +893,11 @@ position: relative;
 top:50%;
 margin-top: 20px;
 }
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
+  position: relative;
+top:50%;
+margin-top: 20px;
+}
 `
 export const Localization=styled.div`
 width: 230px;
@@ -721,6 +916,11 @@ position: relative;
 top:50%;
 margin-top: 20px;
 }
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
+  position: relative;
+top:50%;
+margin-top: 20px;
+}
 `
 export const Containersocialmedia=styled.div`
 width: 100px;
@@ -731,6 +931,12 @@ display: flex;
 justify-content: space-between;
 @media  screen and (max-width: 768px) {
 position: relative;
+top:18%;
+
+left:5%;
+}
+@media screen and  (min-width: 768px) and (max-width: 1024px) {
+  position: relative;
 top:18%;
 
 left:5%;
