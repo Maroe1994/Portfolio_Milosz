@@ -36,9 +36,12 @@ export const SlideWrapper = styled.div`
     width: 100vw;
   overflow-x:hidden; 
   height: 255px;
-  
   }
- 
+  @media  screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 100vw;
+  overflow-x:hidden; 
+  height: 455px;
+  }
   
 
   
@@ -52,6 +55,12 @@ export const Images = styled.img`
     height:255px;
     overflow-x: hidden;
   }
+  @media  screen and (min-width: 768px) and (max-width: 1024px) {
+    width: 100vw;
+  overflow-x:hidden; 
+  height: 100vh;
+  }
+  
  `
 
 export const NextButton = styled.button`

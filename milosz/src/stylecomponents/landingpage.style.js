@@ -9,6 +9,9 @@ export const Global = createGlobalStyle`
     width: 100vw;
 
   }
+  @media  screen and (min-width: 768px) and (max-width: 1024px) {
+    overflow-x: hidden;
+  }
   
   `
 
@@ -346,7 +349,7 @@ margin-top: 20px;
   }
 }
 @media  screen and (max-width: 768px) {
-width: 75%;
+width: 80%;
 height: 63px;
 font-size: 55px;
 font-weight: 300;
@@ -625,12 +628,19 @@ p{
   margin-top: 20px;
   height: 264px;
   font-size: 16px;
+  
+  p{
+    margin-left: 10px;
+  }
 }
 @media screen and  (min-width: 768px) and (max-width: 1024px) {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 10px;
   height: 264px;
   font-size: 16px;
+  p{
+    margin-left: 10px;
+  }
 }
 `
 export const Containeryeyes=styled.div`
@@ -702,12 +712,14 @@ margin-left: auto;
 margin-right:auto ;
 @media screen and  (min-width: 768px) and (max-width: 1024px) {
   width: 90%;
-  height: 80px;
+  height: 60px;
   position:relative;
   top:100%;  
-  
+  display: flex;
+  justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  
 }
 `
 export const Firstelementfotter=styled.div`
@@ -722,7 +734,7 @@ font-weight: 500;
 }
 @media screen and  (min-width: 768px) and (max-width: 1024px) {
   font-size: 16px;
-  
+  font-weight: 800;
   width: 160px;
 }
 `
@@ -748,16 +760,13 @@ text-transform: uppercase;
 }
 @media screen and  (min-width: 768px) and (max-width: 1024px) {
   font-size: 16px;
- 
+ text-align: start;
   text-transform: lowercase;
   width: 200px;
-  
+  font-weight: 800;
  width: 150px;
  height: 30px;
- position: relative;
- top:30%;
- right:46%;
- text-align: start;
+
 }
 `
 export const Thirdelementfotter=styled.div`
@@ -776,9 +785,8 @@ justify-content: flex-end;
 
 }
 @media screen and  (min-width: 768px) and (max-width: 1024px) {
-  position: relative;
-  top:30%;
-  
+  font-size: 16px;
+  font-weight: 800;
   width:40px;
   height: 50px;
 }
