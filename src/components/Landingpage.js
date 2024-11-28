@@ -22,7 +22,7 @@ const imagesArrays =  [{ src: "milosz.jpg",id:1},
         <Global/> 
         <Contact><Link to="Fotter" smooth={true} duration={500}>kontakt</Link></Contact>
         <Textcontainerfirst>Cześć!
-         <Iconphoto src={process.env.PUBLIC_URL+"iconphoto.png"} alt="Iconphoto" />   
+         <Iconphoto src={process.env.PUBLIC_URL+"/iconphoto.png"} alt="Iconphoto" />   
         </Textcontainerfirst>
         <Textcontainersecond>Jestem</Textcontainersecond>
         <Textcontainerthird>Miłosz</Textcontainerthird>
@@ -46,7 +46,7 @@ const imagesArrays =  [{ src: "milosz.jpg",id:1},
             w Gdańsku.
          </Fourparagraph>
          </Firstcontainerinside>
-         <Miloszimage src={process.env.PUBLIC_URL+"milosz.jpg"} alt="Milosz"/>
+         <Miloszimage src={process.env.PUBLIC_URL+"/milosz.jpg"} alt="Milosz"/>
         </Firstcontainercontent>
         <Firstacapit>Dążę do piękna  &</Firstacapit>
         <Firstacapit>jedności w dizajnie</Firstacapit>
