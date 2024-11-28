@@ -116,7 +116,7 @@ const imagesArrays =  [{ src: "milosz.jpg",id:1},
       <p>
         Znaki graficzne
         Bliźnięta
-        Knight
+        Knightgfgh
         Smok chiński
        </p>
        <p>
@@ -164,8 +164,8 @@ const imagesArrays =  [{ src: "milosz.jpg",id:1},
         </Localization>
        </Containerwithcontact>
        <Containersocialmedia>
-< a href="https://www.instagram.com/milosz_chelmowski/" target="blank" > <InstagramandBe src={process.env.PUBLIC_URL+"instagram.png"} alt="instagram"/></a>
-<a href="https://www.behance.net/miloszchelmowski" target="blank" > <InstagramandBe src={process.env.PUBLIC_URL+"Be.png"} alt="Be"/> </a>
+< a href="https://www.instagram.com/milosz_chelmowski/" target="blank" > <InstagramandBe src={process.env.PUBLIC_URL+"/instagram.png"} alt="instagram"/></a>
+<a href="https://www.behance.net/miloszchelmowski" target="blank" > <InstagramandBe src={process.env.PUBLIC_URL+"/Be.png"} alt="Be"/> </a>
        </Containersocialmedia>
        </Leftcontainer>
        <Miloszsmile src={process.env.PUBLIC_URL+"/milosz2.jpg"} alt="miloszsmaile"/>
