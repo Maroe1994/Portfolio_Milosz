@@ -22,7 +22,7 @@ const imagesArrays =  [{ src: "milosz.jpg",id:1},
         <Global/> 
         <Contact><Link to="Fotter" smooth={true} duration={500}>kontakt</Link></Contact>
         <Textcontainerfirst>Cześć!
-         <Iconphoto src="iconphoto.png" alt="Iconphoto" />   
+         <Iconphoto src={process.env.PUBLIC_URL+"iconphoto.png"} alt="Iconphoto" />   
         </Textcontainerfirst>
         <Textcontainersecond>Jestem</Textcontainersecond>
         <Textcontainerthird>Miłosz</Textcontainerthird>
@@ -46,7 +46,7 @@ const imagesArrays =  [{ src: "milosz.jpg",id:1},
             w Gdańsku.
          </Fourparagraph>
          </Firstcontainerinside>
-         <Miloszimage src="milosz.jpg" alt="Milosz"/>
+         <Miloszimage src={process.env.PUBLIC_URL+"milosz.jpg"} alt="Milosz"/>
         </Firstcontainercontent>
         <Firstacapit>Dążę do piękna  &</Firstacapit>
         <Firstacapit>jedności w dizajnie</Firstacapit>
@@ -164,11 +164,11 @@ const imagesArrays =  [{ src: "milosz.jpg",id:1},
         </Localization>
        </Containerwithcontact>
        <Containersocialmedia>
-< a href="https://www.instagram.com/milosz_chelmowski/" target="blank" > <InstagramandBe src="instagram.png" alt="instagram"/></a>
-<a href="https://www.behance.net/miloszchelmowski" target="blank" > <InstagramandBe src="Be.png" alt="Be"/> </a>
+< a href="https://www.instagram.com/milosz_chelmowski/" target="blank" > <InstagramandBe src={process.env.PUBLIC_URL+"instagram.png"} alt="instagram"/></a>
+<a href="https://www.behance.net/miloszchelmowski" target="blank" > <InstagramandBe src={process.env.PUBLIC_URL+"Be.png"} alt="Be"/> </a>
        </Containersocialmedia>
        </Leftcontainer>
-       <Miloszsmile src="milosz2.jpg" alt="miloszsmaile"/>
+       <Miloszsmile src={process.env.PUBLIC_URL+"/milosz2.jpg"} alt="miloszsmaile"/>
        </Lastbigcontainer>
        <Fotter name="Fotter" >
        <Firstelementfotter>
