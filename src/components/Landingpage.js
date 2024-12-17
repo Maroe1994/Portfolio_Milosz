@@ -5,15 +5,15 @@ import { Link } from 'react-scroll';
 
 export function Landingpage () {
 
-    const imagesArray =  [{ src: "milosz.jpg",id:1},
-  { src: "photoone.jpg",id:2 },
-  {src:"phototwo.png",id:3}
+    const imagesArray =  [{ src:process.env.PUBLIC_URL+"/milosz.jpg",id:1 },
+  { src:process.env.PUBLIC_URL+"/photoone.jpg",id:2},
+  {src:process.env.PUBLIC_URL+"/phototwo.png",id:3}
 ];
 
-const imagesArrays =  [{ src: "milosz.jpg",id:1},
-{ src: "photoone.jpg",id:2 },
-{src:"phototwo.png",id:3},
-{src:"logo512.png", id:4}
+const imagesArrays =  [{ src: process.env.PUBLIC_URL+"/milosz.jpg",id:1},
+{ src:process.env.PUBLIC_URL+"/photoone.jpg",id:2 },
+{src:process.env.PUBLIC_URL+"/phototwo.png",id:3},
+{src:process.env.PUBLIC_URL+"/logo512.png", id:4}
 ];
 
 

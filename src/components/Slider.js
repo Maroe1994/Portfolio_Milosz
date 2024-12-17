@@ -3,7 +3,7 @@ import { ImageBox,Images,SlideWrapper} from "../stylecomponents/Slider.style";
 import { Containeryeyes,Eyeimg } from "../stylecomponents/landingpage.style";
 
 
-export function Slider ({arr,src,})  {
+export function Slider ({arr,src})  {
     const[index,setIndex]=useState(0);
     useEffect(() => {
         const timer = setInterval(() => {
@@ -18,7 +18,14 @@ export function Slider ({arr,src,})  {
       function nextImage() {
         setIndex((prevImage) => (prevImage + 1) % arr.length);
       }
+      const handleDotClick = (i) => {
     
+        
+    
+     
+    setIndex(i);
+      };
+      
      /* 
 function previousImage() {
   setIndex((prevImage) => (prevImage - 1 + arr.length) % arr.length);
@@ -38,7 +45,14 @@ function previousImage() {
           )} 
          <Containeryeyes>
           {arr.map((_index, i) => (
-            <Eyeimg key={i} onClick={() => nextImage(i)} />
+            <Eyeimg key={i}   style={{
+              backgroundColor: index===i ? 'white' : 'gray'}} onClick={() => {
+  
+              handleDotClick(index); // Pierwsze zdarzenie
+              
+            
+            nextImage(i); // Drugie zdarzenie
+            }} />
           ))}
         </Containeryeyes>
           {/* 

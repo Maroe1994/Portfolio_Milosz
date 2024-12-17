@@ -655,6 +655,7 @@ position: absolute;
   justify-content: flex-start;
   align-items: center;
   
+  
 `
 export const Eyeimg=styled.div`
 width: 15px;
